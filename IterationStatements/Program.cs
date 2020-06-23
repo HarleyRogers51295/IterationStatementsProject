@@ -50,7 +50,7 @@ namespace IterationStatements
             // DONE Decrement i by 1
             for(i = 199; i <= numbers.Count && i >= 0; i--  )//For lists you have to use Count
             {
-                Console.WriteLine(numbers[i]); // Write to the console "numbers" at index i
+                Console.WriteLine($"the number {numbers[i]} is at index {i}."); // Write to the console "numbers" at index i
             }
         }
     }
